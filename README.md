@@ -50,8 +50,8 @@ RUN chown -R www-data:www-data /usr/share/nginx/html && \
 # COPY nginx.conf /etc/nginx/nginx.conf
 
 CMD ["/entrypoint.sh"]
-
 ```
+
 
 Important
 ---------
