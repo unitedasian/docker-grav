@@ -11,7 +11,7 @@ Create your [grav](http://getgrav.org/) website as per the instructions from the
 ### Using the original image
 
 ```
-docker run -d -p 8000:80 -v `pwd`:/usr/share/nginx/html unitedasian/docker-nginx-php-fpm-grav
+docker run -d -p 8000:80 -v `pwd`:/usr/share/nginx/html unitedasian/grav
 ```
 
 To customize PHP, PHP-FPM settings and nginx configuration, create the relevant configuration files in your host and mount them on the container:
@@ -53,4 +53,7 @@ CMD ["/entrypoint.sh"]
 
 ```
 
-Note that this image does NOT include a Grav installation. It assumes you already have a working Grav site which will be mounted on the container.
+Important
+---------
+
+This image does NOT include a Grav installation. It assumes you already have a working Grav site which will be mounted on the container.
