@@ -8,7 +8,7 @@ Usage
 
 Create your [grav](http://getgrav.org/) website as per the instructions from the [Grav documentation](http://learn.getgrav.org/).
 
-### Using the origina image
+### Using the original image
 
 ```
 docker run -d -p 8000:80 -v `pwd`:/usr/share/nginx/html unitedasian/docker-nginx-php-fpm-grav
